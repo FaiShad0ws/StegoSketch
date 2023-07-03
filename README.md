@@ -3,6 +3,7 @@ This project is a Python implementation of visible and invisible watermarking te
 
 Invisible watermarking uses Least Significant Bit (LSB) steganography techniques to embed data into the media's pixels, whereas visible watermarking adds the data as a visible overlay. 
 
+<br>
 
 ## Requirement 
 ```
