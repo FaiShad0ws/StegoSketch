@@ -15,10 +15,6 @@
 2. unzip the file, cd to the directory and run it!
 ```
 
-```
-gcc -O3 ChaCha.c ChaCha.h -o ChaCha
-```
-
 <br>
 <br>
 
