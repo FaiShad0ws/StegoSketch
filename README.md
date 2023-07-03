@@ -35,7 +35,7 @@ Extracted Secret Message:  Secret-Data
 
 <br>
 
-**Example -Invisible**
+**Example - Invisible**
 ```
 $ ./StegoSketch.py -v image01.jpeg -d Secret-Data 
 Secret Message Hidden Successfully 100% on: watermark_img.png
