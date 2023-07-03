@@ -5,10 +5,12 @@
 !pip install Pillow
 !pip install stegano
 ```
+
 <br>
 ## Instructions 
 1. install requirements
 2. unzip the file, cd to the directory and run it!
+
 
 ```
 gcc -O3 ChaCha.c ChaCha.h -o ChaCha
@@ -20,6 +22,7 @@ gcc -O3 ChaCha.c ChaCha.h -o ChaCha
 ```
 ./StegoSketch.py -i image01.jpeg -d Secret-Data 
 ```
+
 **Example - Visible**
 
 ```
