@@ -29,10 +29,20 @@ Invisible watermarking uses Least Significant Bit (LSB) steganography techniques
 ./StegoSketch.py -i image01.jpeg -d Secret-Data 
 ```
 
+**Example - Invisible**
+```
+$ ./StegoSketch.py -i image01.jpeg -d Secret-Data
+
+Secret Message Hidden Successfully 100% on: watermark_img.png
+   
+```
+<br>
+
+
 **Example - Visible**
 
 ```
-$ ./StegoSketch.py -i image01.jpeg -d Secret-Data
+$ ./StegoSketch.py -v image02.jpeg -d Secret-Data
 
 Secret Message Hidden Successfully 100% on: Steganography_img.png
 Extracted Secret Message:  Secret-Data
@@ -40,10 +50,3 @@ Extracted Secret Message:  Secret-Data
 
 <br>
 
-**Example - Invisible**
-```
-$ ./StegoSketch.py -v image01.jpeg -d Secret-Data
-
-Secret Message Hidden Successfully 100% on: watermark_img.png
-   
-```
