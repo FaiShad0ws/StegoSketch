@@ -58,11 +58,6 @@ def main(invisible = None ,visible = None, verbose = False):
               if (invisible):
                 Invisible_Watermark(path,data)
 
-              
-              
-
-              
-
 
 if __name__=="__main__":
     main()
