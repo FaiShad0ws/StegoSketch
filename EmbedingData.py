@@ -4,10 +4,7 @@ from stegano import lsb
 
 def Visible_Watermark(path, data):
   
-  # Set the path of the original image
   image_path = path
-  
-  # Define the watermark text
   text = data
 
   # Load the original image
@@ -42,26 +39,20 @@ def Visible_Watermark(path, data):
 
   # Save the watermarked image
   watermarked_image.save("watermark_img.png")
-
-  #Print a message indicating that the secret message has been successfully hidden in the image
-  print(f"Secret Message Hidden Successfully 100% \non: watermark_img.png")
+  print(f"Watermark Added Successfully 100% \non: watermark_img.png")
 
 
 def Invisible_Watermark(path, data):
 
-  # Set the path of the original image
   image_path = path
 
   # Hide the secret message in the image using LSB steganography and save the result as a new image
   secret = lsb.hide(image_path, data)
+  
   secret.save("Steganography_img.png")
-
-
-  # Print a message indicating that the secret message has been successfully hidden in the image
-  print(f"Secret Message Hidden Successfully 100% \non: Steganography_img.png")
+  print(f"Secret Message Added Successfully 100% \non: Steganography_img.png")
 
   # Extract the hidden secret message from the steganographic image
   reveal_secret = lsb.reveal("Steganography_img.png")
 
-  # Print the extracted secret message
   print("\nExtracted Secret Message: ", reveal_secret)  
