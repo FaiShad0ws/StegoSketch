@@ -8,7 +8,7 @@
 
 <br>
 
-**Instructions**  
+## Instructions
 
 ```
 1. install requirements
@@ -22,7 +22,8 @@ gcc -O3 ChaCha.c ChaCha.h -o ChaCha
 <br>
 <br>
 
-**Usage**
+## Usage
+
 ```
 ./StegoSketch.py -i image01.jpeg -d Secret-Data 
 ```
