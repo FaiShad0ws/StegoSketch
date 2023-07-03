@@ -18,7 +18,7 @@ Invisible watermarking uses Least Significant Bit (LSB) steganography techniques
 ```
 1. install requirements
 2. unzip the file and cd to the directory
-3. run $ ./StegoSketch.py -h 
+3. run ./StegoSketch.py -h 
 ```
 
 <br>
