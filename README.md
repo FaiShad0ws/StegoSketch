@@ -34,8 +34,7 @@ $ ./StegoSketch.py -i image01.jpeg -d Secret-Data
 ```
 $ ./StegoSketch.py -i image01.jpeg -d Secret-Data
 
-Secret Message Hidden Successfully 100% on: watermark_img.png
-   
+Secret Message Hidden Successfully 100% on: watermark_img.png  
 ```
 <br>
 
