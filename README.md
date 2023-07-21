@@ -7,8 +7,8 @@ Invisible watermarking uses Least Significant Bit (LSB) steganography techniques
 
 ## Requirement 
 ```
-!pip install Pillow
-!pip install stegano
+pip install Pillow
+pip install stegano
 ```
 
 <br>
